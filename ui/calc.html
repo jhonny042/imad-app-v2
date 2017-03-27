@@ -1,1 +1,146 @@
+<html>
+<body>
+<center> Welcome to Mukul's Calculator</center>
 
+<a href="/">Home</a>
+
+<form name="form">
+<center><input type="text" name="cal" ></center>
+
+<table border=1 align="center">
+<tr>
+<td><input type="button" name="1" value="1" onClick="run1()">
+</td>
+<td><input type="button" name="2" value="2" onClick="run2()">
+</td>
+<td><input type="button" name="3" value="3" onClick="run3()"></td>
+
+
+</tr>
+<tr><td><input type="button" name="4" value="4" onClick="run4()">
+
+</td><td><input type="button" name="5" value="5" onClick="run5()"></td>
+
+<td><input type="button" name="6" value="6" onClick="run6()"></td>
+</tr>
+<tr><td><input type="button" name="7" value="7" onClick="run7()">
+</td>
+<td><input type="button" name="8" value="8" onClick="run8()">
+
+</td><td><input type="button" name="9" value="9" onClick="run9()"></td>
+
+</tr>
+<tr><td><input type="button" name="0" value="0" onClick="run0()">
+</td>
+<td><input type="button" name="plus" value="+" onClick="runplus()"></td>
+
+<td><input type="button" name="minus" value="-" onClick="runminus()"></td>
+
+</tr>
+<tr><td><input type="button" name="mul" value="*" onClick="runmul()">
+</td>
+<td><input type="button" name="div" value="/" onClick="rundiv()">
+
+</td><td><input type="button" name="mod" value="%" onClick="runmod()"></td>
+
+</tr>
+<tr><td><input type="button" name="evalu" value="=" onClick="runeval()">
+</td>
+<td><input type="button" name="clear" value="clr" onClick="runclr()">
+
+</td></tr></form>
+
+<script>
+
+function run1()
+
+{document.form.cal.value+="1";
+}
+
+function run2()
+
+{document.form.cal.value+="2";
+}
+
+function run3()
+
+{document.form.cal.value+="3";
+}
+
+function run4()
+
+{document.form.cal.value+="4";
+}
+
+function run5()
+
+{document.form.cal.value+="5";
+}
+
+function run6()
+
+{document.form.cal.value+="6";
+}
+
+function run7()
+
+{document.form.cal.value+="7";
+}
+
+function run8()
+
+{document.form.cal.value+="8";
+}
+
+function run9()
+
+{document.form.cal.value+="9";
+}
+
+function run0()
+
+{document.form.cal.value+="0";
+}
+
+function runplus()
+
+{document.form.cal.value+="+";
+}
+
+function runminus()
+
+{document.form.cal.value+="-";
+}
+
+function runmul()
+
+{document.form.cal.value+="*";
+}
+
+function rundiv()
+
+{document.form.cal.value+="/";
+}
+
+function runmod()
+
+{document.form.cal.value+="%";
+}
+
+function runeval()
+
+{var res= eval(document.form.cal.value);
+
+ document.form.cal.value=res;
+}
+
+function runclr()
+
+{document.form.cal.value ="";
+}
+
+</script>
+
+</body>
+
+</html>
