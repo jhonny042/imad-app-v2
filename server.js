@@ -22,9 +22,12 @@ app.get('/ui/p.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'p.jpg'));
 });
 app.get('/ui/panchambro1.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'panchambro2.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro1.jpg'));
 });
 app.get('/ui/panchambro2.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro2.jpg'));
+});
+app.get('/ui/panchambro3.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'panchambro3.jpg'));
 });
 
