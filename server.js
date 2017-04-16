@@ -14,6 +14,12 @@ app.get('/calc', function (req, res) {
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
+app.get('/panchambro', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bro1.html'));
+});
+app.get('/bro2', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'bro2.html'));
+});
 
 app.get('/ui/mukul.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'mukul.jpg'));
