@@ -36,6 +36,30 @@ app.get('/ui/panchambro2.jpg', function (req, res) {
 app.get('/ui/panchambro3.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'panchambro3.jpg'));
 });
+app.get('/ui/panchambro4.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro4.jpg'));
+});
+app.get('/ui/panchambro5.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro5.jpg'));
+});
+app.get('/ui/panchambro6.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro6.jpg'));
+});
+app.get('/ui/panchambro7.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro7.jpg'));
+});
+app.get('/ui/panchambro8.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro8.jpg'));
+});
+app.get('/ui/panchambro9.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro9.jpg'));
+});
+app.get('/ui/panchambro10.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro10.jpg'));
+});
+app.get('/ui/panchambro11.jpg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'panchambro11.jpg'));
+});
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
